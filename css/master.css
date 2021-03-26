@@ -129,8 +129,7 @@ nav{
 }
 .second-container-third-section-main{
     background-color: green;
-    height: 55%;
-    margin-bottom: 5%;
+    height: 60%;
 }
 
 .left-third-section-main{
@@ -138,7 +137,6 @@ nav{
     height: 100%;
     margin-right: 5%;
     background-color: indigo;
-
 }
 
 .right-third-section-main{
@@ -150,8 +148,6 @@ nav{
 
 
 /* footer*/
-
-
 .dim-footer{
     height: 550px;
 }
@@ -159,14 +155,20 @@ nav{
 /* first-section footer */
 .first-section-footer{
     background-color: chocolate;
-    height: 45%;
+    height: 55%;
     margin-bottom: 5%;
+}
+.vertical-first-section-footer{
+    width:20%;
+    margin-right: 5%;
+    background-color: magenta;
+    height: 100%;
 }
 /* second-section footer */
 .second-section-footer{
     background-color: cornflowerblue;
     margin-bottom: 5%;
-    height: 45%;
+    height: 35%;
 
 }
 
