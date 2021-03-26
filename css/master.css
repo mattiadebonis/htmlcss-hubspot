@@ -12,13 +12,20 @@ body{
 .margin-page{
     width: 80%;
     margin: 0 auto;
-    background-color: aqua;
 }
 
 .wdt-100{
     width:100%;
 
 }
+.float{
+    float: left;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 /* header */
 
@@ -54,39 +61,114 @@ nav{
 /* first-section main */
 .first-section-main{
     background-color: burlywood;
+    height: 1100px;
+    margin-bottom: 5%;
 }
+
+.first-container-first-section-main{
+    height: 45%;
+    margin-bottom: 5%;
+    background-color: coral;
+
+}
+.horizontal-first-section-main{
+    margin-bottom: 5%;    
+    height: 45%;
+    background-color: green;
+
+}
+
+.second-container-first-section-main{
+    height: 45%;
+    margin-bottom: 5%;    
+    background-color: coral;
+}
+
+.vertical-first-section-main{
+    height: 100%;
+    width: 30%;
+    background-color: green;
+}
+.side-margin{
+    margin-left:5%;
+    margin-right:5%;
+}
+
 
 /* second-section main */
 .second-section-main{
     background-color: cadetblue;
+    height: 550px;
+    margin-bottom: 5%;
+}
+.first-container-second-section-main{
+    height: 25%;
+    margin-bottom: 5%;
+    background-color: green;
+}
 
+.second-container-second-section-main{
+    height: 65%;
+    margin-bottom: 5%;
+    background-color: green;
 }
 
 /* third-section main */
 .third-section-main{
-    background-color: chartreuse;
+    background-color: cadetblue;
+    height: 550px;
+    margin-bottom: 5%;
+    background-color:greenyellow;
+}
+
+.first-container-third-section-main{
+    background-color: green;
+    height: 35%;
+    margin-bottom: 5%;
+
+}
+.second-container-third-section-main{
+    background-color: green;
+    height: 55%;
+    margin-bottom: 5%;
+}
+
+.left-third-section-main{
+    width: 35%;
+    height: 100%;
+    margin-right: 5%;
+    background-color: indigo;
 
 }
 
-/* /main */
+.right-third-section-main{
+    width: 55%;
+    height: 100%;
+    margin-right: 5%;
+    background-color: indigo;
+}
+
 
 /* footer*/
 
+
 .dim-footer{
     height: 550px;
-
-
 }
+
 /* first-section footer */
 .first-section-footer{
     background-color: chocolate;
+    height: 45%;
+    margin-bottom: 5%;
 }
-
-/* second-section main */
+/* second-section footer */
 .second-section-footer{
     background-color: cornflowerblue;
-}
+    margin-bottom: 5%;
+    height: 45%;
 
+}
 
 
 /* test posizione sezioni */
@@ -100,7 +182,7 @@ main{
 
 }
 footer{
-    background-color: darkgoldenrod;
+    background-color:black;
 
 }
 
