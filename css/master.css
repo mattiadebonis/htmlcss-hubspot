@@ -6,34 +6,65 @@
 
 body{
     font-family: 'Nunito', sans-serif;
+    background-color: blue;
 }
 
+.margin-page{
+    width: 80%;
+    margin: 0 auto;
+    background-color: aqua;
+}
 
+.wdt-100{
+    width:100%;
+
+}
 
 /* header */
+
+.dim-header{   
+    height: 550px;
+
+}
+
 .setting-bar{
+    background-color: blueviolet;
+    height: 50px;
+
+}
+nav{
+    height: 50px;
+    background-color: darkslategrey;
 
 }
 
 .jumbotron{
+    background-color: brown;
 
 }
 
 
 /* main*/
 
+.dim-main{
+    height: 2200px;
+    background-color: red;
+}
+
 /* first-section main */
 .first-section-main{
-
+    background-color: burlywood;
 }
 
 /* second-section main */
 .second-section-main{
+    background-color: cadetblue;
 
 }
 
 /* third-section main */
 .third-section-main{
+    background-color: chartreuse;
 
 }
 
@@ -41,13 +72,35 @@ body{
 
 /* footer*/
 
+.dim-footer{
+    height: 550px;
+
+
+}
 /* first-section footer */
 .first-section-footer{
-
+    background-color: chocolate;
 }
 
 /* second-section main */
 .second-section-footer{
+    background-color: cornflowerblue;
+}
+
+
+
+/* test posizione sezioni */
+header{
+    background-color: darkkhaki;
+}
+
+
+main{
+    background-color: darkslategray;
+
+}
+footer{
+    background-color: darkgoldenrod;
 
 }
 
