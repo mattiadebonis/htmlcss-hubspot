@@ -158,7 +158,7 @@ nav{
 }
 
 .jumbotron-text{
-    margin-bottom:30%; 50px;
+    margin-bottom:30%; ;
 }
 
 
@@ -221,64 +221,121 @@ nav{
     list-style-image: ;
 }
 
-.second-container-first-section-main{
-    height: 45%;
-    margin-bottom: 5%;    
-}
+
 
 .vertical-first-section-main{
-    width: 28%;
+    width: 30%;
+    height: 100%;
     background-color:white;
     align-items: center;
     text-align: center;
     padding: 5%;
 }
+
 .center-vertical{
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .img-vertical{
-    width:30%;
+    height:100px;
+    margin-bottom: 30px;
+
 
 }
 
 .title-vertical{
-
+    margin-bottom: 30px;
 }
 .p-vertical{
+    margin-bottom: 30px;
 
 }
 .hr-vertical{
+    margin-bottom: 30px;
 
 }
 
-
+.ul-vertical{
+    margin-bottom: 50px;
+}
 .side-margin{
     margin-left:5%;
     margin-right:5%;
 }
 
 
+
+
+
+
+
+
+
+
+
+
 /* second-section main */
 .second-section-main{
-    height: 550px;
-    margin-bottom: 5%;
+    background-image: linear-gradient(to right,rgb(0,169,184) , rgb(0,188, 166) );
+    color:white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+
 }
 .first-container-second-section-main{
     height: 25%;
-    margin-bottom: 5%;
+    
+    padding-bottom:5%;
 }
 
 .second-container-second-section-main{
     height: 65%;
 }
+.table-statistics{
+    width:100%
+}
+
+.img-table{
+    
+
+}
+
+.text-table{
+    font-size: 14px;;
+}
+
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+.table-statistics td, table th {
+    border: 1px solid white;
+}
+
+td>div{
+    padding:15px;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
 
 /* third-section main */
 .third-section-main{
-    height: 550px;
-    margin-bottom: 5%;
+    
 }
+
+.costumer-table{
+    
+}
+
+
+
 
 .first-container-third-section-main{
     height: 35%;
@@ -301,6 +358,13 @@ nav{
     margin-right: 5%;
     background-color: indigo;
 }
+
+
+
+
+
+
+
 
 
 /* footer*/
