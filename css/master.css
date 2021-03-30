@@ -6,13 +6,13 @@
 
 body{
     font-family: 'Nunito', sans-serif;
-    background-color: blue;
     color:rgb(50,73,91);
-    font-size: 17px;;
+    font-size: 16px;;
+    background-color: rgb(244,249,253);
 }
 
 .margin-page{
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
 }
 .hgt-100{
@@ -87,12 +87,13 @@ a{
     font-size: 14px;
     margin-top: 50px;
 }
+.block{
+    display: inline-block;
+}
 
 /* header */
 
-.dim-header{   
-    height: 720px;
-}
+
 
 .setting-bar{
     background-color: rgb(244,249,253);
@@ -142,7 +143,7 @@ nav{
 
 .jumbotron{
     text-align: left;
-    height:100%;
+    height:700px;
     background-image: url("../img/jumbotron.png");
     background-size: cover;
 }
@@ -157,47 +158,102 @@ nav{
 }
 
 .jumbotron-text{
-    margin-bottom: 50px;
+    margin-bottom:30%; 50px;
 }
 
 
 /* main*/
 
-.dim-main{
-    height: 2200px;
-    background-color: red;
-}
+
 
 /* first-section main */
-.first-section-main{
-    background-color: burlywood;
-    height: 1100px;
-    margin-bottom: 5%;
-}
+
 
 .first-container-first-section-main{
     height: 45%;
-    margin-bottom: 5%;
-    background-color: coral;
-    color:wn}
+}
 
-.horizontal-first-section-main{
-    margin-bottom: 5%;    
-    height: 45%;
-    background-color: green;
+.first-horizontal-first-section-main{
+    text-align: center;
+    align-items: center;
+    padding: 5% 10%;
+}
+
+
+.img-dim-first-horizontal{
+    width:40%;
+}
+
+
+.second-horizontal-first-section-main{
+    background-color: white;
+    margin-bottom: 5%;
+
+    
+
+}
+
+
+.left-second-horizontal{
+    width:25%;
+    text-align: center;
+    padding: 5%;
+}
+
+.img-dim-second-horizontal{
+    width: 60%;
+    margin-bottom: 15%;
+}
+
+
+.right-second-horizontal{
+    width: 70%;
+    padding-top: 5%;
+    padding-right:5%;
+}
+
+.bold-uppercase{
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.ul-style{
+    list-style-image: ;
 }
 
 .second-container-first-section-main{
     height: 45%;
     margin-bottom: 5%;    
-    background-color: coral;
 }
 
 .vertical-first-section-main{
-    height: 100%;
-    width: 30%;
-    background-color: green;
+    width: 28%;
+    background-color:white;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
 }
+.center-vertical{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.img-vertical{
+    width:30%;
+
+}
+
+.title-vertical{
+
+}
+.p-vertical{
+
+}
+.hr-vertical{
+
+}
+
+
 .side-margin{
     margin-left:5%;
     margin-right:5%;
@@ -206,38 +262,30 @@ nav{
 
 /* second-section main */
 .second-section-main{
-    background-color: cadetblue;
     height: 550px;
     margin-bottom: 5%;
 }
 .first-container-second-section-main{
     height: 25%;
     margin-bottom: 5%;
-    background-color: green;
 }
 
 .second-container-second-section-main{
     height: 65%;
-    margin-bottom: 5%;
-    background-color: green;
 }
 
 /* third-section main */
 .third-section-main{
-    background-color: cadetblue;
     height: 550px;
     margin-bottom: 5%;
-    background-color:greenyellow;
 }
 
 .first-container-third-section-main{
-    background-color: green;
     height: 35%;
     margin-bottom: 5%;
 
 }
 .second-container-third-section-main{
-    background-color: green;
     height: 60%;
 }
 
@@ -245,7 +293,6 @@ nav{
     width: 35%;
     height: 100%;
     margin-right: 5%;
-    background-color: indigo;
 }
 
 .right-third-section-main{
@@ -278,11 +325,10 @@ nav{
     background-color: cornflowerblue;
     margin-bottom: 5%;
     height: 35%;
-
 }
 
 
-/* test posizione sezioni */
+/* test posizione sezioni 
 header{
     background-color: darkkhaki;
 }
@@ -296,4 +342,6 @@ footer{
     background-color:black;
 
 }
+
+*/
 
