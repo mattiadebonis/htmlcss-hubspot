@@ -255,7 +255,7 @@ nav{
 /*vertical box*/
 .vertical-container-main{
     width: 30%;
-    height: 720px;
+    height: 740px;
     background-color:white;
     align-items: center;
     text-align: center;
@@ -283,6 +283,9 @@ nav{
 
 .p-vertical{
     margin-bottom: 30px;
+}
+.container-ul-vertical{
+    height: 90px;
 }
 
 .ul-vertical{
