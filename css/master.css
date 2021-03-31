@@ -142,10 +142,9 @@ a>span:hover{
 	border-width: 0.15em 0.15em 0 0;
 	content: '';
 	display: inline-block;
-	height: 0.30em;
+	height: 0.20em;
 	left: 0.15em;
 	position: relative;
-	top: 0.15em;
 	transform: rotate(-45deg);
 	width: 0.30em;
     margin-left:5px;
@@ -265,8 +264,7 @@ nav{
 }
 
 .img-vertical{
-    he
-    ight:100px;
+    height:100px;
 }
 .title-vertical{
     font-size: 28px;
