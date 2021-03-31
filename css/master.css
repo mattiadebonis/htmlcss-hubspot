@@ -97,6 +97,7 @@ a>span:hover{
     border: 1px solid;
     border-color: rgb(254,119,90);
     color: rgb(254,119,90);
+    text-decoration: none;
 }
 .button-orange{
     background-color: rgb(254,119,90);
@@ -104,7 +105,7 @@ a>span:hover{
 }
 
 .button-large{
-    padding: 15px;
+    padding: 15px 25px;
     text-decoration:none;
 }
 
@@ -130,7 +131,6 @@ a>span:hover{
 	transform: rotate(-45deg);
 	width: 0.30em;
     margin-left:5px;
-
 }
 
 .chevron.bottom:after {
@@ -265,8 +265,8 @@ nav{
 
 .text-vertical-container{
     height: 220px;
-
 }
+
 .center-vertical{
     margin-left: 5%;
     margin-right: 5%;
@@ -313,13 +313,19 @@ nav{
 
 /* table*/
 .table-statistics{
+    table-layout: fixed ;
     margin-top: 5%;
     width:100%;
     border-collapse: collapse;
-    border-style: hidden;
+    border-style: hidden;   
 }
 
-.table-statistics td, table th {
+.table-statistics h1::after{
+    content: '+';
+    font-size: 20px;
+}
+
+.table-statistics td, .table-statistics th {
     border: 1px solid white;
 }
 
