@@ -10,6 +10,9 @@
     <!-- import font-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap" rel="stylesheet">
+    <!-- import icon library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Hubspot di Mattia De Bonis</title>
 </head>
 <body>
@@ -17,22 +20,22 @@
     <!-- header-->
     <header class= "dim-header clearfix">
         <!-- setting bar-->
-        <section class="setting-bar wdt-100 clearfix">
+        <section class="setting-bar clearfix">
             <!-- left setting bar -->
-            <div class="margin-page hgt-100">
+            <div class="margin-page ">
                 <div class="bar-left float">
                     <ul class="hz-ul">
                         <li>
-                            <a href="#">
+                            <a class="color-link" href="#">
                                 <img class="icon globe" src="img/globe.svg" alt="">
-                                <span>English &#9662;</span>
+                                <span class="chevron bottom">English</span>
                             </a>
                         </li>
                         <li>
                             <hr class="vertical-line">
                         </li>
                         <li>
-                            <a href="#">
+                            <a class="color-link" href="#">
                                 <span>Contact Us</span>
                             </a>
                         </li>
@@ -62,8 +65,8 @@
         <!-- /setting bar-->
 
         <!-- nav-->
-        <nav class="wdt-100 clearfix">
-            <div class="margin-page hgt-100">
+        <nav class="clearfix">
+            <div class="margin-page">
                 <!-- left nav -->
                 <div class="bar-left float">
                     <a href="#">
@@ -75,11 +78,11 @@
                 <!-- right nav-->
                 <div class="bar-right float">
                     <ul class="hz-ul">
-                        <li><a href="#">Software &#9662;</a></li>
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Resources &#9662;</a></li>
-                        <li><a href="#">Partners &#9662;</a></li>
-                        <li><a href="#">About &#9662;</a></li>
+                        <li><a class="color-link chevron bottom" href="#">Software</a></li>
+                        <li><a class="color-link" href="#">Pricing</a></li>
+                        <li><a class="color-link chevron bottom" href="#">Resources </a></li>
+                        <li><a class="color-link chevron bottom" href="#">Partners </a></li>
+                        <li><a class="color-link chevron bottom" href="#">About </a></li>
                     </ul>
                 </div>
                 <!-- /right nav-->
@@ -88,222 +91,257 @@
         <!-- /nav-->
 
         <!-- jumbotron-->
-        <section class="jumbotron wdt-100 clearfix">
+        <section class="jumbotron clearfix">
             <div class="jumbotron-content margin-page">
                 <h1 class="jumbotron-title">There's a better way to grow.</h1>
-                <p class="jumbotron-text">Marketing,sales and servuce software that helps your business grow withouth compromise. Because "good fot business" should also mean "good for the customer"</p>
-                <a href="#" class="button button-orange button-large">GetHubspotFree</a>
+                <p>Marketing,sales and servuce software that helps your business grow withouth compromise. Because "good fot business" should also mean "good for the customer"</p>
+                <br>
+                <a href="#" class="button button-orange button-large inline-block">GetHubspotFree</a>
+                <br>
                 <p class="small-text">Get started with FREE tools, and upgrade as you grow</p>
             </div>
-            
-
         </section>
         <!-- /jumbotron-->
     </header>
     <!-- /header-->
 
     <!-- main-->
-    <main class="dim-main  ">
+    <main>
         <!-- first section main-->
-        <section class="first-section-main margin-page wdt-100">
-            
-            <!-- primo container prima sezione main-->
-            <div class="first-container-first-section-main margin-page wdt-100">
-                <!-- powerful alone-->
-                <div class="first-horizontal-first-section-main" >
-                    <img class="img-dim-first-horizontal" src="img/cube.webp" alt="cube">
-                    <h2>Powerful Alone. Better Together</h2>
-                    <p>Hubspot offers a full stack of software for marketing, sales, and costumer service with a completely free CRM at its core. They're powerful alone - but even better when used togheter.</p>
-                </div>
-                <!-- /powerful alone-->
-
-                <!-- crm-->
-                <div class="second-horizontal-first-section-main margin-page clearfix">
-                    <div class="left-second-horizontal float">
-                        <img class="img-dim-second-horizontal" src="img/book.svg" alt="book">
-                        <br>
-                        <a href="#" class="button button-orange button-large">Learn more</a>
-                    </div>
-                    <div class="right-second-horizontal float clearfix">
-                        <h2>Free  HubSpot CRM</h2>
-                        <p>Everything you need to organize, track, and build better relatioship with leads and costumers. Yes, it's 100% free. Forever.</p>
-                        <br>
-                        <p class="bold-uppercase flaot">Popolare feature</p>
-                        <hr class="float">
-                        <br>
-                        <ul class="hz-ul ul-style ul vertical">
-                            <li><span class="check"></span> Contact Insight</li>
-                            <li>Deals</li>
-                            <li>Task</li>
-                        </ul>
-                        
-                    </div>
-
-                </div>
-                <!-- /crm-->
+        <section class="first-section-main margin-page ">
+            <!-- powerful alone-->
+            <div class="claim-container margin-page">
+                <img class="img-dim-claim" src="img/cube.webp" alt="cube">
+                <h2>Powerful Alone. Better Together</h2>
+                <p>Hubspot offers a full stack of software for marketing, sales, and costumer service with a completely free CRM at its core. They're powerful alone - but even better when used togheter.</p>
             </div>
-            <!-- /primo container prima sezione main-->
+            <!-- /powerful alone-->
 
-            <!-- secondo container prima sezione main-->
-            <div class="margin-page  clearfix">
-                <div class="vertical-first-section-main float">
+            <!-- free hubspot-->
+            <div class="free-hubspot-container box-shadow margin-page clearfix">
+                <!-- left free hubspot-->
+                <div class="left-free-hubspot float">
+                    <img class="img-free-hubspot" src="img/book.svg" alt="book">
+                    <br>
+                    <a href="#" class="button button-orange button-large inline-block">Learn more</a>
+                </div>
+                <!-- /left free hubspot-->
+
+                <!-- right free hubspot-->
+                <div class="right-free-hubspot float ">
+                    <h2>Free  HubSpot CRM</h2>
+                    <p>Everything you need to organize, track, and build better relatioship with leads and costumers. Yes, it's 100% free. Forever.</p>
+                    <br>
+                    <span class="bold-uppercase">Popolar feature</span>
+                    <hr class="hr-main">
+                    <br>
+                    <ul class="checkmark hz-ul ul-style margin-ul-free-hubspot">
+                        <li>Contact Insight</li>
+                        <li>Deals</li>
+                        <li>Task</li>
+                    </ul>
+                </div>
+                <!-- /right free hubspot-->
+            </div>
+            <!-- /free-hubspot-->
+            
+
+            <!-- vertical box-->
+            <div class="margin-page clearfix">
+                <!-- lefy vertical box-->
+                <div class="vertical-container-main box-shadow float">
                     <img class="img-vertical" src="img/buble.svg" alt="">
                     <h3 class="title-vertical">Marketing Hub</h3>
-                    <p class="p-vertical">Marketing software to help you grow traffic, convert more visitors, and run complete inbound marketing campaigns at scale</p>
-                    <hr class="hr-vertical">
+                    <div class="text-vertical-container">
+                        <p class="p-vertical">Marketing software to help you grow traffic, convert more visitors, and run complete inbound marketing campaigns at scale</p>    
+                    </div>
+                    
+                    <hr class="hr-margin-bottom">
                     <p class="bold-uppercase">Popolar feature</p>
-                    <ul class="hz-ul ul-style ul vertical">
+                    <br>
+                    <ul class="ul-style alg-left">
                         <li>Lead generation</li>
                         <li>Marketing automation</li>
                         <li>Analytics</li>
                     </ul>
-                    <a href="#" class="button button-orange button-large">Learn more</a>
+                    <br>
+                    <a href="#" class="button button-orange button-large inline-block">Learn more</a>
                 </div>
-                <div class="vertical-first-section-main center-vertical float">
+                <!-- /left vertical box-->
+
+                <!-- central vertical box-->
+                <div class="vertical-container-main box-shadow center-vertical float">
                     <img class="img-vertical" src="img/office.svg" alt="">
                     <h3 class="title-vertical">Sales hub</h3>
-                    <p class="p-vertical">Time-saving sales software that helps you get deeper insights into prospects, automate the task you hate, and close more deals faster.</p>
-                    <hr class="hr-vertical">
+                    <div class="text-vertical-container">
+                        <p class="p-vertical">Time-saving sales software that helps you get deeper insights into prospects, automate the task you hate, and close more deals faster.</p>
+                    </div>
+                    <hr class="hr-margin-bottom">
                     <p class="bold-uppercase">Popolar feature</p>
-                    <ul class="ul-style">
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                    <br>
+                    <ul class="ul-style alg-left">
+                        <li>Email tracking</li>
+                        <li>Meeting Scheduling</li>
+                        <li>Email Automation</li>
                     </ul>
-                    <a href="#" class="button button-orange button-large">Learn more</a>
+                    <br>
+                    <a href="#" class="button button-orange button-large inline-block">Learn more</a>
                 </div>
-                <div class="vertical-first-section-main float">
+                <!-- /central vertical box-->
+
+                <!-- right vertical box-->
+                <div class="vertical-container-main box-shadow float">
                     <img class="img-vertical" src="img/table.svg" alt="">
                     <h3 class="title-vertical">Service Hub</h3>
-                    <p class="p-vertical">Costumer service software to help you connect with costumers, exceed expectations, and turn them into promoters that grow your business.</p>
-                    <hr class="hr-vertical">
+                    <div class="text-vertical-container">
+                        <p class="p-vertical">Costumer service software to help you connect with costumers, exceed expectations, and turn them into promoters that grow your business.</p>
+                    </div>
+                    <hr class="hr-margin-bottom">
                     <p class="bold-uppercase">Popolar feature</p>
-                    <ul class="hz-ul ul-style ul vertical">
+                    <br>
+                    <ul class="ul-style alg-left">
                         <li>Tickets</li>
                         <li>Costumer Feedback</li>
                         <li>Knowledge Base</li>
                     </ul>
-                    <a href="#" class="button button-orange button-large">Learn more</a>
+                    <br>
+                    <a href="#" class="button button-orange button-large inline-block">Learn more</a>
                 </div>
+                <!-- /right vertical box-->
             </div>
-            <!-- /secondo container prima sezione main-->
+            <!-- /vertical box-->
         </section>
         <!-- /first section main-->
 
         <!-- second section main-->
-        <section class="second-section-main wdt-100">
+        <section class="statistics-container">
             <div class="margin-page">
-                <div class="first-container-second-section-main ">
+                <div class="title">
                     <h2>Learn and grow with award-winning support and a thriving community behind you</h2>
+                    <br>
                     <p>You don't have to go it alone. Master the inbound methodology and get the most out to your tools with HubSpot's legendary costumer support team and a community of thousands of marketing and sales pros just like you.</p>
                 </div>
-                <!-- statistiche-->
-                <div class="second-container-second-section-main">
-                    <!-- table-->
-                    <table class="table-statistics">
-                        <!-- first row-->
-                        <tr>
-                            <td>
-                                <div>
-                                    <img class= "img-table" src="img/hands.svg" alt="hands">
-                                    <h1 class="h1-table">150+</h1>
-                                    <p class="text-table">Hubspot user groups</p>
-                                </div>
-                            </td>
-                            <td>
-                                <div>
-                                    <img class= "img-table" src="img/hands.svg" alt="hands">
-                                    <h1 class="h1-table">150+</h1>
-                                    <p class="text-table">Hubspot user groups</p>
-                                </div>
-                            </td>
-                            <td>
-                                <div>
-                                    <img class= "img-table" src="img/hands.svg" alt="hands">
-                                    <h1 class="h1-table">150+</h1>
-                                    <p class="text-table">Hubspot user groups</p>
-                                </div>
-                            </td>
-                            <td>
-                                <div>
-                                    <img class= "img-table" src="img/hands.svg" alt="hands">
-                                    <h1 class="h1-table">150+</h1>
-                                    <p class="text-table">Hubspot user groups</p>
-                                </div>
-                            </td>
-                        </tr>
-                        <!-- first row-->
+                
+                <!-- table statistics-->
+                <table class="table-statistics">
+                    <!-- first row-->
+                    <tr>
+                        <td>
+                            <div>
+                                <img class= "img-table" src="img/hands.svg" alt="hands">
+                                <h1 class="h1-table">150+</h1>
+                                <p class="text-table">Hubspot user groups</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class= "img-table" src="img/blogs.svg" alt="blog">
+                                <h1 class="h1-table">4,5M+</h1>
+                                <p class="text-table">monthly visits</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class= "img-table" src="img/academy.svg" alt="accademy">
+                                <h1 class="h1-table">155k+</h1>
+                                <p class="text-table">certified professional</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class= "img-table" src="/img/inbound.svg" alt="inbound">
+                                <h1 class="h1-table">21k+</h1>
+                                <p class="text-table">registered attendees</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- /first row-->
 
-                        <!-- second row -->
-                        <tr>
-                            <td>
-                                <div>
-                                    <img class= "img-table" src="img/hands.svg" alt="hands">
-                                    <h1 class="h1-table">150+</h1>
-                                    <p class="text-table">Hubspot user groups</p>
-                                </div>
-                            </td>
-                            <td>
-                                <div>
-                                    <img class= "img-table" src="img/hands.svg" alt="hands">
-                                    <h1 class="h1-table">150+</h1>
-                                    <p class="text-table">Hubspot user groups</p>
-                                </div>
-                            </td>
-                            <td>
-                                <div>
-                                    <img class= "img-table" src="img/hands.svg" alt="hands">
-                                    <h1 class="h1-table">150+</h1>
-                                    <p class="text-table">Hubspot user groups</p>
-                                </div>
-                            </td>
-                            <td>
-                                <div>
-                                    <img class= "img-table" src="img/hands.svg" alt="hands">
-                                    <h1 class="h1-table">150+</h1>
-                                    <p class="text-table">Hubspot user groups</p>
-                                </div>
-                            </td>
-                        </tr>
-                        <!-- /second row -->
-
-                    </table>
-                    <!-- table-->
-
-                </div>
-                <!-- /statistiche-->
+                    <!-- second row -->
+                    <tr>
+                        <td>
+                            <div>
+                                <img class= "img-table" src="img/connect.svg" alt="connect">
+                                <h1 class="h1-table">200+</h1>
+                                <p class="text-table">integrations</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class= "img-table" src="img/globe.svg" alt="globe">
+                                <h1 class="h1-table">6+</h1>
+                                <p class="text-table">languages</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class= "img-table" src="img/followers.svg" alt="followers">
+                                <h1 class="h1-table">2,6M+</h1>
+                                <p class="text-table">social follower</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class= "img-table" src="img/growth.svg" alt="growth">
+                                <h1 class="h1-table">5k+</h1>
+                                <p class="text-table">profile and counting</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- /second row -->
+                </table>
+                <!-- table statistics-->
             </div>
-            
-
         </section>
         <!-- /second section main-->
 
         <!-- third section-->
-        <section class="third-section-main margin-page">
-            <div class="first-container-third-section-main clearfix">
-                <div class="left-third-section-main float">
-                    <h1>64,500</h1>
-                    <p>costumer in over 100 countries growing their businesses with HubSpot</p>
-                    
-
+        <section class="third-section-main ">
+            <!-- costumer-->
+            <div class="costumer-container margin-page clearfix">
+                <div class="left-costumer-container float">
+                    <h1 class="number-costumer">64,500</h1>
+                    <br>
+                    <p>costumer in over <span class="bold">100</span> countries growing their businesses with HubSpot</p>
                 </div>
-                <div class="right-third-section-main float">
-                    <table>
+                
+                <!-- costumer logo table-->
+                <div class="right-costumer-container float">
+                    <table class="costumer-table">
                         <tr>
-                            <tf><img src="img/atlasian.webp" alt=""></tf>
-                            <tf><img src="img/doordash.webp" alt=""></tf>
-                            <tf><img src="img/g2crowd.webp" alt=""></tf>
-                            <tf><img src="img/purple.webp" alt=""></tf>
+                            <td><img class="img-costumer-table" src="img/atlasian.webp" alt=""></td>
+                            <td><img class="img-costumer-table" src="img/doordash.webp" alt=""></td>
+                            <td><img class="img-costumer-table" src="img/g2crowd.webp" alt=""></td>
+                            <td><img class="img-costumer-table" src="img/purple.webp" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td><img class="img-costumer-table" src="img/subaru.webp" alt=""></td>
+                            <td><img class="img-costumer-table" src="img/wistia.webp" alt=""></td>
+                            <td><img class="img-costumer-table" src="img/classpass.webp" alt=""></td>
+                            <td><img class="img-costumer-table" src="img/vmware.png" alt=""></td>
                         </tr>
                     </table>    
-                    
                 </div>
-    
+                <!-- costumer logo table-->        
             </div>
-            <div class="second-container-third-section-main clearfix">
-                <div class="left-third-section-main float"></div>
-                <div class="right-third-section-main float"></div>
+            <!-- costumer-->
+
+            <!-- start growing -->
+            <div class="margin-page clearfix">
+                <div class="start-container float">
+                    <h2>Start Growing With Hubspot Today</h2>
+                    <br>
+                    <p>With tools to male every part of your process more human and a support tram excited to help you, getting started with inbound has never been easier</p>
+                    <br>
+                    <a href="#" class="button button-orange button-large inline-block">GetHubspotFree</a>
+                    <p class="small-text">Get started with FREE tools, or get more with our premium software.</p>
+                </div>
+                <div class="woman-container float">
+                    <img class="img-woman float" src="img/woman.webp" alt="woman">
+                </div>
+                
             </div>
+            <!-- /start growing -->
         </section>
         <!-- /third section main-->
 
@@ -311,20 +349,112 @@
     <!-- /main-->
 
     <!-- footer-->
-    <footer class="dim-footer margin-page">
-        <!-- first section footer-->
-        <section class="first-section-footer wdt-100 clearfix">
-            <div class="vertical-first-section-footer float"></div>
-            <div class="vertical-first-section-footer float"></div>
-            <div class="vertical-first-section-footer float"></div>
-            <div class="vertical-first-section-footer float"></div>
+    <footer class="dim-footer ">
+        <!-- menù footer-->
+        <section class="first-section-footer clearfix margin-page">
+            <!-- first column-->
+            <div class="col-footer float">
+                <h3 class="title-footer">Increase your traffic</h3>
+                <ul class="hz-ul">
+                    <li><a class="link-footer" href="#">Ad Software</a></li>
+                    <li><a class="link-footer" href="#">Blog Software</a></li>
+                    <li><a class="link-footer" href="#">SEO Software</a></li>
+                    <li><a class="link-footer" href="#">Social Media Software</a></li>
+                    <li><a class="link-footer" href="#">Content Management System</a></li>
+                </ul>
+            </div>
+            <!-- /first column-->
+
+            <!-- second column-->
+            <div class="col-footer float">
+                <h3 class="title-footer">Connect with lead</h3>
+                <ul class="hz-ul">
+                    <li><a class="link-footer" href="#">Find new prospect</a></li>
+                    <li><a class="link-footer" href="#">Email Tracking</a></li>
+                    <li><a class="link-footer" href="#">Sales Email Templates</a></li>
+                    <li><a class="link-footer" href="#">Click to Call Your Leeds</a></li>
+                    <li><a class="link-footer" href="#">Email Marketing</a></li>
+                </ul>
+            </div>
+            <!-- /second column-->
+
+            <!-- third column-->
+            <div class="col-footer float">
+                <h3 class="title-footer">Close and Manage Leads</h3>
+                <ul class="hz-ul">
+                    <li><a class="link-footer" href="#">Document Tracking Tool</a></li>
+                    <li><a class="link-footer" href="#">Meeting Schedule Tool</a></li>
+                    <li><a class="link-footer" href="#">Sales Automation Tool</a></li>
+                    <li><a class="link-footer" href="#">Lead Management Tool</a></li>
+                    <li><a class="link-footer" href="#">Pipeline Management Tool</a></li>
+                </ul>
+            </div>
+            <!-- /third column-->
+
+            <!-- fourth column-->
+            <div class="col-footer float">
+                   <h3 class="title-footer">Increase your traffic</h3>
+                <ul class="hz-ul">
+                    <li><a class="link-footer" href="#">Ad Software</a></li>
+                    <li><a class="link-footer" href="#">Blog Software</a></li>
+                    <li><a class="link-footer" href="#">SEO Software</a></li>
+                    <li><a class="link-footer" href="#">Social Media Software</a></li>
+                    <li><a class="link-footer" href="#">Content Management System</a></li>
+                    <li><a class="link-footer button button-footer" href="">Contact HubSpot Support</a></li>
+                    <!-- social link-->
+                    <li>
+                        <a href="#">
+                            <img class="social-icon" src="img/facebook-svgrepo-com (1).svg" alt="">
+                        </a>
+                        <a href="">
+                            <img class="social-icon" src="img/instagram-svgrepo-com.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img class="social-icon" src="img/youtube-svgrepo-com.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img class="social-icon" src="img/twitter-svgrepo-com.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img class="social-icon" src="img/linkedin-svgrepo-com.svg" alt="">
+                        </a>
+                    </li>
+                    <!-- social link-->
+                </ul>
+            </div>
+            <!-- /fourth column-->
         </section>
         <!-- /first section footer-->
 
         <!-- second section footer-->
-        <section class="second-section-footer wdt-100"></section>
+        <section class="clearfix">
+            <!-- languages-->
+            <div class="languages-container">
+                <ul class="hz-ul">
+                    <li><a class="link-footer" href="#">English</a></li>
+                    <li><a class="link-footer" href="#">Deutsch</a></li>
+                    <li><a class="link-footer" href="#">电影院</a></li>
+                    <li><a class="link-footer" href="#">Español</a></li>
+                    <li><a class="link-footer" href="#">Português</a></li>
+                    <li><a class="link-footer" href="#">Francais</a></li>
+                </ul>
+            </div>
+            <!-- /languages-->
+            <hr class="hr-footer">
+            <div class="footer-note margin-page clearfix">
+                <div class="left-footer float">
+                    <img src="img/logo-white.svg" alt="logo-white">
+                    <p class="text-white"> Copyright (c) 2019 HubSpot, Inc.</p>
+                </div>
+                <div class="right-footer float">
+                    <ul class="hz-ul">
+                        <li><a href="#" class="link-footer">Legal Stuff</a></li>
+                        <li><a href="#" class="link-footer"></a>Privacy Policy</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
         <!-- /second section footer-->
-
     </footer>
     <!-- /footer-->
 
