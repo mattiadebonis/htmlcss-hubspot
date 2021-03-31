@@ -222,7 +222,7 @@ nav{
 }
 
 .img-dim-claim{
-    width:20%;
+    width:25%;
 }
 
 .free-hubspot-container{
@@ -313,6 +313,7 @@ nav{
 
 /* table*/
 .table-statistics{
+    margin-top: 5%;
     width:100%;
     border-collapse: collapse;
     border-style: hidden;
@@ -466,8 +467,8 @@ li>a>.social-icon{
     background-color: lightgray;
     border-color: lightgray;
     color: rgb(50, 73, 91);
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 1px;
+    padding-right: 1px;
 }
 .button-footer:hover{
     background-color: #7fd1de;
